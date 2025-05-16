@@ -18,7 +18,7 @@ export const SocketProvider = ({ children }) => {
   }, [socket]);
   useEffect(() => {
     if (authUser) {
-      const newSocket = io("http://localhost:3000", {
+      const newSocket = io("https://chatapp-su4z.onrender.com", {
         query: {
           userId: authUser.user._id,
         },

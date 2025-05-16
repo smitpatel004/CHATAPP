@@ -14,7 +14,7 @@ export const getReceiverSocketId = (receiverId) => users[receiverId];
 
 export const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://chatapp-su4z.onrender.com",
     methods: ["GET", "POST"],
   },
 });
