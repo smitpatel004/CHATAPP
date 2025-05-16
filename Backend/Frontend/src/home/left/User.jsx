@@ -31,15 +31,13 @@ export default function UserList() {
         >
           <div className="avatar online">
             <div className="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src={usr.profilePic || "/default-avatar.png"} alt={usr.name} />
+              <img src={"https://img1.picmix.com/output/stamp/normal/7/5/3/7/2147357_21bc7.png" || "/default-avatar.png"} alt={usr.name} />
             </div>
           </div>
           <div className="text-white">
             <p className="font-semibold">{usr.name}</p>
             <p className="text-sm text-gray-400">{usr.email}</p>
-            <p className={`text-xs ${isOnline(usr._id) ? "text-green-500" : "text-red-500"}`}>
-              {isOnline(usr._id) ? "Online" : "Offline"}
-            </p>
+           
           </div>
         </div>
       ))}
