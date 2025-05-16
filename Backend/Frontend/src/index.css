@@ -1,0 +1,6 @@
+/* import tailwindcss from '@tailwindcss/vite */
+@import "tailwindcss";
+
+.flex-smit::-webkit-scrollbar{
+    display: none;
+}
