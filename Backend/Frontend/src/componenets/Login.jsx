@@ -98,7 +98,7 @@ export default function Login() {
           <h2 className="text-3xl font-extrabold text-white">Sign in to your account</h2>
           <p className="mt-2 text-sm text-slate-400">
             Or{' '}
-            <a href="#" className="font-medium text-blue-500 hover:text-blue-400">
+            <a href="https://chatapp-su4z.onrender.com/signup" className="font-medium text-blue-500 hover:text-blue-400">
               create a new account
             </a>
           </p>
